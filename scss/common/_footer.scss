@@ -1,0 +1,94 @@
+footer {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+
+    .newslatter_form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .ente {
+        color: #000;
+        border: inherit;
+        padding: 0 30px;
+        height: 66px;
+        width: 100%;
+        font-size: 17px;
+    }
+    .subs_btn {
+        max-width: 289px;
+        display: inline-block;
+        background: #151515;
+        height: 66px;
+        width: 100%;
+        color: #fff;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: ease-in all 0.5s;
+
+        &:hover{
+            background: #fff;
+            color: #151515;
+            transition: ease-in all 0.5s;
+        }
+    
+        }
+    
+    
+
+    .inner{
+        width: 1180px;
+        margin: 0 auto;
+
+        &::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        h1{
+            font: bold 24px/ "arial";
+            color: #666;
+            float: left;
+        }
+        ul{
+            float: right;
+
+            li{
+                float: left;
+                margin-left: 20px;
+
+
+                a{
+                    font: bold 14px/1 "arial";
+                    color: #aaa;
+                }
+            }
+        }
+        address{
+            float: left;
+            width: 100%;
+            font: 14px/1.3 "arial";
+            color: #bbb;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #888;
+            padding-top: 20px;
+        }
+        p{
+            float: left;
+            width: 100%;
+            font: 12px/1 "arial";
+            color: #777;
+        }
+    }
+}
+@media screen and (max-width:540px){
+    footer{
+        .inner{
+            width: 30%;
+            margin: 0 auto;
+        }
+    }
+}
