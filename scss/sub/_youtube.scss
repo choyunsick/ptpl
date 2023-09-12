@@ -1,0 +1,58 @@
+h4{
+    font-size: 60px;
+    color: red;
+    margin-left: 100px;
+}
+
+
+.youtube {
+    position: relative;
+    height: 900px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    iframe{
+        width: 90%;
+        height: 100%;
+        position: absolute;
+        margin-top: 100px;
+        opacity: 0.8;
+    }
+    // .youtube__area{
+    //     width: 100%;
+    //     position: absolute;
+    //     left: 50%;
+    //     margin-left: calc(1920px / -2);
+    //     background-color: red;
+    //     top: 50%;
+    //     margin-top: calc(1920px * 9 / 16 / -2);
+
+    //     &::before{
+    //         content: "";
+    //         display: block;
+    //         width:  100%;
+    //         height: 0;
+    //         padding-top: 56.25%;
+    //     }
+    //     #player {
+    //         width: 100%;
+    //         height: 100%;
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //       }
+    // }
+    // .youtube__cover{
+    //     background-color: rgba(0,0,0,.3);
+    //     position: absolute;
+    //     top:0;
+    //     left:0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-repeat: no-repeat;
+    // }
+}
+ 
