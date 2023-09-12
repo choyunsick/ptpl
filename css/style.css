@@ -648,6 +648,16 @@ footer .inner p {
   color: #fff;
 }
 
+@media screen and (max-width: 1180px) {
+  .contain {
+    background-color: #fff;
+  }
+  .contain .container h1 {
+    font-size: 30px;
+    text-align: center;
+    color: royalblue;
+  }
+}
 #banner {
   width: 100%;
   padding: 150px 0;
@@ -657,6 +667,7 @@ footer .inner p {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #fff;
 }
 #banner .inner {
   width: 1180px;
@@ -674,20 +685,22 @@ footer .inner p {
   text-align: center;
 }
 
+@media screen and (max-width: 1180px) {
+  #banner {
+    padding: 150px 30px;
+    height: 50vh;
+  }
+  #banner .inner {
+    width: 100%;
+  }
+  #banner .inner h2 {
+    color: #000;
+  }
+}
 .contact {
   position: relative;
   background-color: #fff;
   padding-top: 50px;
-}
-.contact .bg-img {
-  position: absolute;
-  width: 100px;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.contact .bg-img img {
-  width: 100%;
 }
 .contact .heading_container {
   justify-content: center;
@@ -745,6 +758,34 @@ footer .inner p {
   display: block;
   margin: auto;
   border-style: 14px #000;
+}
+
+@media screen and (max-width: 1180px) {
+  .contact {
+    background-color: antiquewhite;
+    padding-top: 20px;
+  }
+  .contact .heading_container h2 span {
+    font-size: 50px;
+  }
+}
+.contact input::placeholder {
+  color: #000;
+  padding-left: 5px;
+}
+
+.contact input {
+  border: none;
+  outline: none;
+  border-bottom: 0.8px solid #ac9784;
+  width: 50%;
+  margin: 10px 0px;
+  margin-left: 480px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.contact input::placeholder {
+  color: #ac9784;
 }
 
 .information {
@@ -951,11 +992,12 @@ h4 {
   align-items: center;
 }
 .youtube iframe {
-  width: 90%;
+  width: 80%;
   height: 100%;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 20px;
   opacity: 0.8;
+  border-radius: 20px;
 }
 
 body {
