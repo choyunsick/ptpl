@@ -5,6 +5,8 @@ const obj1 = document.querySelector(".obj1");
 const obj2 = document.querySelector(".obj2");
 const obj3 = document.querySelector(".obj3");
 const txt = document.querySelector(".txt2");
+
+
 console.log(boxes);
 const len = boxes.length;
 let posArr = [];
