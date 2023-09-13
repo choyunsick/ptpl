@@ -84,7 +84,7 @@ header .inner .menu #main li:hover {
     display: block;
   }
 }
-@media screen and (max-width: 540px) {
+@media only screen and (min-width: 393px) and (max-width: 767px) {
   header .inner {
     width: 100%;
     height: 150px;
