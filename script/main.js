@@ -14,8 +14,6 @@ btnMetro.forEach((el,index)=>{
         //클릭한 순번의 box에 on을 붙여보자~
         boxMetro[index].classList.add("on");
 
-        // for(let el of boxMetro) el.classList.remove("active");
-        // boxMetro[index].classList.add("active");
 
         setTimeout(()=>{
            for(let el of boxMetro) el.classList.remove("active");
@@ -24,6 +22,8 @@ btnMetro.forEach((el,index)=>{
 
     })
 })
+
+
 
 
 

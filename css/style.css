@@ -84,6 +84,26 @@ header .inner .menu #main li:hover {
     display: block;
   }
 }
+@media screen and (max-width: 540px) {
+  header .inner {
+    width: 100%;
+    height: 150px;
+  }
+  header .inner h1 {
+    left: 25px;
+    bottom: 75px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+  }
+  header .inner .menu {
+    display: none;
+    overflow: hidden;
+  }
+  header .inner .btnCall {
+    display: block;
+  }
+}
 figure {
   width: 100%;
   height: 80%;
@@ -888,7 +908,7 @@ footer .inner p {
   height: 1300px;
   background: linear-gradient(135deg, #000, aqua);
 }
-.charge .wrap #box1 .obj1 {
+.charge .wrap #box1 .set1 {
   width: 1200px;
   height: 1200px;
   background-color: #aaa;
@@ -900,7 +920,7 @@ footer .inner p {
   transform: rotate(45deg);
   border-radius: 50%;
 }
-.charge .wrap #box1 .obj1 img {
+.charge .wrap #box1 .set1 img {
   width: 100%;
   height: 100%;
   opacity: 0.6;
@@ -929,7 +949,7 @@ footer .inner p {
   opacity: 0.7;
   border-radius: 50%;
 }
-.charge .wrap #box2 .obj2 {
+.charge .wrap #box2 .set2 {
   width: 0px;
   height: 2px;
   background-color: #000;
@@ -941,7 +961,7 @@ footer .inner p {
   height: 1500px;
   background: linear-gradient(135deg, #c94949, #93a857);
 }
-.charge .wrap #box3 .obj3 {
+.charge .wrap #box3 .set3 {
   width: 900px;
   height: 900px;
   position: absolute;
@@ -953,13 +973,13 @@ footer .inner p {
   opacity: 1;
   border-radius: 50%;
 }
-.charge .wrap #box3 .obj3 img {
+.charge .wrap #box3 .set3 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   opacity: 0.8;
 }
-.charge .wrap #box3 .obj3 .txt3 {
+.charge .wrap #box3 .set3 .txt3 {
   font: bold 120px/1 "arial";
   color: yellow;
   position: relative;
