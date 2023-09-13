@@ -160,7 +160,7 @@ header .inner .menuMo #gnbMo li a {
 
 @media screen and (max-width: 1180px) {
   header .inner {
-    width: 100%;
+    width: 1180px;
     height: 300px;
   }
   header .inner h1 {
@@ -179,7 +179,7 @@ header .inner .menuMo #gnbMo li a {
 }
 @media screen and (max-width: 393px) {
   header .inner {
-    width: 100%;
+    width: 393px;
     height: 150px;
   }
   header .inner h1 {
@@ -248,6 +248,7 @@ figure .inner a:hover {
 @media screen and (max-width: 1180px) {
   figure {
     background: linear-gradient(120deg, blue, red);
+    width: 393px;
   }
   figure .inner {
     width: 100%;
@@ -263,6 +264,7 @@ figure .inner a:hover {
 @media screen and (max-width: 393px) {
   figure {
     background: linear-gradient(120deg, blue, red);
+    width: 393px;
   }
   figure .inner {
     width: 100%;
@@ -354,7 +356,7 @@ footer .inner p {
 
 @media screen and (max-width: 1180px) {
   footer .inner {
-    width: 30%;
+    width: 1180px;
     margin: 0 auto;
   }
   footer .inner::after {
@@ -371,7 +373,7 @@ footer .inner p {
 }
 @media screen and (max-width: 393px) {
   footer .inner {
-    width: 30%;
+    width: 393px;
     margin: 0 auto;
   }
   footer .inner::after {
@@ -455,6 +457,18 @@ footer .inner p {
   width: 150px;
 }
 
+@media screen and (max-width: 1180px) {
+  #visual {
+    width: 1180px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 393px) {
+  #visual {
+    width: 393px;
+    height: 100px;
+  }
+}
 #news {
   width: 100%;
   background-color: #fff;
@@ -486,6 +500,7 @@ footer .inner p {
 
 @media screen and (max-width: 1180px) {
   #news {
+    width: 1180px;
     height: 30vh;
   }
   #news .inner h1 {
@@ -498,6 +513,7 @@ footer .inner p {
 }
 @media screen and (max-width: 393px) {
   #news {
+    width: 393px;
     height: 10vh;
   }
   #news .inner h1 {
@@ -631,7 +647,7 @@ footer .inner p {
 
 @media screen and (max-width: 1180px) {
   #metro nav {
-    width: 100%;
+    width: 1180px;
   }
   #metro nav h1 {
     left: 50px;
@@ -708,7 +724,7 @@ footer .inner p {
 }
 @media screen and (max-width: 393px) {
   #metro nav {
-    width: 100%;
+    width: 393px;
   }
   #metro nav h1 {
     left: 50px;
@@ -894,6 +910,7 @@ footer .inner p {
 
 @media screen and (max-width: 1180px) {
   .contain {
+    width: 1180px;
     background-color: #fff;
   }
   .contain .container h1 {
@@ -904,6 +921,7 @@ footer .inner p {
 }
 @media screen and (max-width: 393px) {
   .contain {
+    width: 393px;
     background-color: #fff;
   }
   .contain .container h1 {
@@ -943,6 +961,7 @@ footer .inner p {
   #banner {
     padding: 150px 30px;
     height: 50vh;
+    width: 1180px;
   }
   #banner .inner {
     width: 100%;
@@ -955,6 +974,7 @@ footer .inner p {
   #banner {
     padding: 50px 10px;
     height: 20vh;
+    width: 393px;
   }
   #banner .inner {
     width: 100%;
@@ -1030,6 +1050,7 @@ footer .inner p {
   .contact {
     background-color: antiquewhite;
     padding-top: 20px;
+    width: 1180px;
   }
   .contact .heading_container h2 span {
     font-size: 50px;
@@ -1043,6 +1064,7 @@ footer .inner p {
   .contact {
     background-color: #333;
     padding-top: 20px;
+    width: 393px;
   }
   .contact .heading_container h2 span {
     font-size: 25px;

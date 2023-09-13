@@ -35,6 +35,7 @@
 }
 @media screen and (max-width:1180px) {
     #news{
+        width: 1180px;
         height: 30vh;
         .inner{
             h1{
@@ -49,6 +50,7 @@
 }
 @media screen and (max-width:393px) {
     #news{
+        width: 393px;
         height: 10vh;
         .inner{
             h1{

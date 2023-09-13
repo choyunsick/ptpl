@@ -87,7 +87,7 @@ footer {
 @media screen and (max-width:1180px){
     footer{
         .inner{
-            width: 30%;
+            width: 1180px;
             margin: 0 auto;
             &::after{
                 content: '';
@@ -106,7 +106,7 @@ footer {
 @media screen and (max-width:393px){
     footer{
         .inner{
-            width: 30%;
+            width: 393px;
             margin: 0 auto;
             &::after{
                 content: '';

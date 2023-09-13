@@ -62,27 +62,6 @@
         }
     }
 
-    // nav {
-    //     position: absolute;
-    //     z-index: 3;
-    //     bottom: 9vh;
-    //     right: 10vw;
-    //     display: flex;
-    //     gap: 40px;
-    //     // gap은 flex상황에서만 사용할수 있고, 부모요소에 적용합니다
-    //     color: #fff;
-    //     cursor: pointer;
-
-    //     i {
-    //         display: inline-block;
-
-    //         &.on {
-    //             color: #222;
-    //             transform: scale(2);
-    //         }
-    //     }
-    // }
-
     .btns {
         position: absolute;
         left: 10vw;
@@ -102,14 +81,18 @@
             }
         }
     }
-
-    // .bar {
-    //     width: 0%;
-    //     height: 10px;
-    //     background-color: rgba(0, 0, 0, 0.5);
-    //     position: absolute;
-    //     left: 0;
-    //     bottom: 0;
-    //     z-index: 4;
-    // }
 }
+@media screen and (max-width:1180px) {
+    #visual{
+        width: 1180px;
+        height: 300px;
+    }
+  }
+  @media screen and (max-width:393px) {
+    #visual{
+        width: 393px;
+        height: 100px;
+    }
+  }
+  
+  
