@@ -87,7 +87,7 @@ footer {
 @media screen and (max-width:1180px){
     footer{
         .inner{
-            width: 1180px;
+            width: 100%;
             margin: 0 auto;
             &::after{
                 content: '';
