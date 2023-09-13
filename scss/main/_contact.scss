@@ -118,25 +118,25 @@
             }
         }
     }    
-    // .contact input::placeholder {
-    //     color: #000;
-    //     padding-left: 5px;
-    //     overflow: hidden;
-    // }
-    // .contact input {
-    //     border: none;
-    //     outline: none;
-    //     border-bottom: 0.8px solid #ac9784;
-    //     width: 50%;
-    //     margin: 10px 0px;
-    //     margin-left: 480px;
-    //     padding-bottom: 10px;
-    //     overflow: hidden;
+    .contact input::placeholder {
+        color: #000;
+        padding-left: 5px;
+        overflow: hidden;
+    }
+    .contact input {
+        border: none;
+        outline: none;
+        border-bottom: 0.8px solid #ac9784;
+        width: 50%;
+        margin: 10px 0px;
+        margin-left: 480px;
+        padding-bottom: 10px;
+        overflow: hidden;
     
-    //     &::placeholder {
-    //         color: #ac9784;
-    //     }
-    // }
+        &::placeholder {
+            color: #ac9784;
+        }
+    }
 
 
 
