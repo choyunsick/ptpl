@@ -39,3 +39,17 @@
 		}
 	}
 }
+@media screen and (max-width:393px) {
+  #banner {
+		padding: 50px 10px;
+    height: 20vh;
+
+		.inner {
+			width: 100%;
+      h2{
+        color: #000;
+      }
+		}
+	}
+}
+

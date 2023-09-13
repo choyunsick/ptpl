@@ -260,6 +260,21 @@ figure .inner a:hover {
     color: chartreuse;
   }
 }
+@media screen and (max-width: 393px) {
+  figure {
+    background: linear-gradient(120deg, blue, red);
+  }
+  figure .inner {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  figure .inner h2 {
+    font: normal 10vw/1 "arial";
+    font-size: 10px;
+    font-family: "Barriecito", cursive;
+    color: chartreuse;
+  }
+}
 footer {
   width: 100%;
   padding: 100px 0;
@@ -349,6 +364,23 @@ footer .inner p {
   }
   footer .inner h1 {
     font: bold 12px/"arial";
+    color: #666;
+    float: left;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 393px) {
+  footer .inner {
+    width: 30%;
+    margin: 0 auto;
+  }
+  footer .inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  footer .inner h1 {
+    font: bold 5px/"arial";
     color: #666;
     float: left;
     text-align: center;
@@ -460,6 +492,18 @@ footer .inner p {
     left: 50px;
     bottom: 150px;
     font-size: 50px;
+    text-align: center;
+    color: aquamarine;
+  }
+}
+@media screen and (max-width: 393px) {
+  #news {
+    height: 10vh;
+  }
+  #news .inner h1 {
+    left: 17px;
+    bottom: 50px;
+    font-size: 17px;
     text-align: center;
     color: aquamarine;
   }
@@ -585,7 +629,84 @@ footer .inner p {
   width: 50%;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1180px) {
+  #metro nav {
+    width: 100%;
+  }
+  #metro nav h1 {
+    left: 50px;
+    bottom: 150px;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+  }
+  #metro nav .menu {
+    display: none;
+    overflow: hidden;
+  }
+  #metro nav .btnCall {
+    display: block;
+  }
+  section {
+    background-color: red;
+    height: 1000px;
+  }
+  section#News article img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section#News article p {
+    display: none;
+  }
+  section#News article h2 {
+    display: none;
+  }
+  section#News article i {
+    display: none;
+  }
+  section#News2 {
+    height: 20vh;
+  }
+  section#News2 article img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section#News2 article p {
+    display: none;
+  }
+  section#News2 article h2 {
+    display: none;
+  }
+  section#News2 article i {
+    display: none;
+  }
+  section#News3 {
+    height: 20vh;
+  }
+  section#News3 article img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section#News3 article p {
+    display: none;
+  }
+  section#News3 article h2 {
+    display: none;
+  }
+  section#News3 article i {
+    display: none;
+  }
+}
+@media screen and (max-width: 393px) {
   #metro nav {
     width: 100%;
   }
@@ -781,6 +902,16 @@ footer .inner p {
     color: royalblue;
   }
 }
+@media screen and (max-width: 393px) {
+  .contain {
+    background-color: #fff;
+  }
+  .contain .container h1 {
+    font-size: 10px;
+    text-align: center;
+    color: royalblue;
+  }
+}
 #banner {
   width: 100%;
   padding: 150px 0;
@@ -812,6 +943,18 @@ footer .inner p {
   #banner {
     padding: 150px 30px;
     height: 50vh;
+  }
+  #banner .inner {
+    width: 100%;
+  }
+  #banner .inner h2 {
+    color: #000;
+  }
+}
+@media screen and (max-width: 393px) {
+  #banner {
+    padding: 50px 10px;
+    height: 20vh;
   }
   #banner .inner {
     width: 100%;
@@ -891,26 +1034,24 @@ footer .inner p {
   .contact .heading_container h2 span {
     font-size: 50px;
   }
+  .contact .newslatter_form {
+    width: 100%;
+    margin-left: 50px;
+  }
 }
-.contact input::placeholder {
-  color: #000;
-  padding-left: 5px;
+@media screen and (max-width: 393px) {
+  .contact {
+    background-color: #333;
+    padding-top: 20px;
+  }
+  .contact .heading_container h2 span {
+    font-size: 25px;
+  }
+  .contact .newslatter_form {
+    width: 100%;
+    margin-left: 50px;
+  }
 }
-
-.contact input {
-  border: none;
-  outline: none;
-  border-bottom: 0.8px solid #ac9784;
-  width: 50%;
-  margin: 10px 0px;
-  margin-left: 480px;
-  padding-bottom: 10px;
-  overflow: hidden;
-}
-.contact input::placeholder {
-  color: #ac9784;
-}
-
 .information {
   width: 100%;
   height: 200vh;

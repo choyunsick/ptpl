@@ -93,36 +93,48 @@
                 }
             }
         } 
+        .newslatter_form{
+            width: 100%;
+            margin-left: 50px;
+        }
     }
 }
-.contact input::placeholder {
-    color: #000;
-    padding-left: 5px;
-}
-.contact input {
-    border: none;
-    outline: none;
-    border-bottom: 0.8px solid #ac9784;
-    width: 50%;
-    margin: 10px 0px;
-    margin-left: 480px;
-    padding-bottom: 10px;
-    overflow: hidden;
+    @media screen and (max-width:393px){
+        .contact{
+            background-color: #333;
+            padding-top: 20px;
+            .heading_container{
+                h2{
+                    span{
+                        font-size: 25px;
+                    }
+                }
+            } 
+            .newslatter_form{
+                width: 100%;
+                margin-left: 50px;
+            }
+        }
+    }    
+    // .contact input::placeholder {
+    //     color: #000;
+    //     padding-left: 5px;
+    //     overflow: hidden;
+    // }
+    // .contact input {
+    //     border: none;
+    //     outline: none;
+    //     border-bottom: 0.8px solid #ac9784;
+    //     width: 50%;
+    //     margin: 10px 0px;
+    //     margin-left: 480px;
+    //     padding-bottom: 10px;
+    //     overflow: hidden;
+    
+    //     &::placeholder {
+    //         color: #ac9784;
+    //     }
+    // }
 
-    &::placeholder {
-        color: #ac9784;
-    }
-}
-// .contact_form-container {
-//     padding: 15px 0 15px 0;
-//  }
 
-//  .contact_form-container button {
-//      border: none;
-//      background-color: #fd9e2e;
-//      color: #fff;
-//      padding: 14px 55px;
-//      margin-left: 48px;
-//      font-size: 14px;
-//      text-transform: uppercase;
-//  }
+

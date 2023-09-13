@@ -37,9 +37,6 @@
     #news{
         height: 30vh;
         .inner{
-            // width: 100%;
-            // height: 300px;
-
             h1{
                 left: 50px;
                 bottom: 150px;
@@ -47,15 +44,24 @@
                 text-align: center;
                 color: aquamarine;
             }
-            // .menu{
-            //     display: none;
-            //     overflow: hidden;
-            // }
-            // .btnCall {
-            //     display: block;
-            // }
         }
     }
 }
+@media screen and (max-width:393px) {
+    #news{
+        height: 10vh;
+        .inner{
+            h1{
+                left: 17px;
+                bottom: 50px;
+                font-size: 17px;
+                text-align: center;
+                color: aquamarine;
+            }
+        }
+    }
+}
+
+
 
 

@@ -69,5 +69,22 @@ figure {
             color: chartreuse;
         }
     }   
+} 
 }
-}
+@media screen and (max-width:393px) {
+    figure {
+        background: linear-gradient(120deg ,blue , red);
+        .inner{
+            width: 100%;
+            padding: 0px 10px;
+    
+            h2{
+                font: normal 10vw/1 "arial";
+                font-size: 10px;
+                font-family: 'Barriecito', cursive;
+                color: chartreuse;
+            }
+        }   
+    } 
+    }
+    
