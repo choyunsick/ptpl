@@ -177,7 +177,7 @@ header .inner .menuMo #gnbMo li a {
     display: block;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   header .inner {
     width: 100%;
     height: 150px;
@@ -261,7 +261,7 @@ figure .inner a:hover {
     color: chartreuse;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   figure {
     background: linear-gradient(120deg, blue, red);
     width: 100%;
@@ -371,7 +371,7 @@ footer .inner p {
     text-align: center;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   footer .inner {
     width: 100%;
     margin: 0 auto;
@@ -463,7 +463,7 @@ footer .inner p {
     height: 300px;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   #visual {
     width: 100%;
     height: 300px;
@@ -511,7 +511,7 @@ footer .inner p {
     color: aquamarine;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   #news {
     width: 100%;
     height: 10vh;
@@ -722,7 +722,7 @@ footer .inner p {
     display: none;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   #metro nav {
     width: 100%;
   }
@@ -919,7 +919,7 @@ footer .inner p {
     color: royalblue;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   .contain {
     width: 100%;
     background-color: #fff;
@@ -970,7 +970,7 @@ footer .inner p {
     color: #000;
   }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   #banner {
     padding: 50px 10px;
     height: 20vh;
@@ -1024,6 +1024,9 @@ footer .inner p {
 .contact_form-container {
   padding: 15px 0 15px 0;
 }
+.contact_form-container div input {
+  font-style: red;
+}
 
 .contact_form-container button {
   border: none;
@@ -1051,6 +1054,7 @@ footer .inner p {
     background-color: antiquewhite;
     padding-top: 20px;
     width: 100%;
+    height: 60vh;
   }
   .contact .heading_container h2 span {
     font-size: 50px;
@@ -1059,8 +1063,51 @@ footer .inner p {
     width: 100%;
     margin-left: 50px;
   }
+  .contact input::placeholder {
+    color: #000;
+    padding-left: 20px;
+    overflow: hidden;
+  }
+  .contact input {
+    border: none;
+    outline: none;
+    border-bottom: 0.8px solid #ac9784;
+    width: 50%;
+    margin: 10px 0px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+  }
+  .contact input::placeholder {
+    color: #ac9784;
+  }
+  .contact_form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .contact_form-container button {
+    border: none;
+    background-color: #fd9e2e;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .map_container {
+    height: 25vh;
+  }
+  .map_container .map-responsive {
+    height: 100%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-style: 14px #000;
+  }
 }
-@media screen and (max-width: 693px) {
+@media screen and (max-width: 393px) {
   .contact {
     background-color: #333;
     padding-top: 20px;
@@ -1092,6 +1139,15 @@ footer .inner p {
 }
 .contact input::placeholder {
   color: #ac9784;
+}
+.contact input .contact_form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  opacity: 0;
 }
 
 .information {
