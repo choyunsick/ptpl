@@ -208,6 +208,7 @@ figure video {
   height: 100%;
   object-fit: cover;
   opacity: 0.4;
+  border-radius: 50px;
 }
 figure .inner {
   width: 100%;
@@ -224,12 +225,14 @@ figure .inner h2 {
   margin-bottom: 50px;
   display: block;
   opacity: 0.7;
+  margin-left: 50px;
 }
 figure .inner p {
   font: 25px/1 "arial";
   color: #fff;
   margin-bottom: 30px;
   font-family: "Tilt Prism", cursive;
+  margin-left: 30px;
 }
 figure .inner a {
   display: block;
@@ -239,6 +242,9 @@ figure .inner a {
   text-align: center;
   font: bold 11px/30px "arial";
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 figure .inner a:hover {
   background-color: #fff;
@@ -1262,6 +1268,12 @@ footer .inner p {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 1180px) {
+  .information {
+    width: 100%;
+    height: 450vh;
+  }
+}
 .charge {
   width: 100%;
   height: 400vh;
