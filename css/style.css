@@ -677,7 +677,7 @@ footer .inner p {
     gap: 0;
   }
   #metro nav a {
-    font: 20px/1 "arial";
+    font: 10px/1 "arial";
     color: #999;
     display: flex;
     text-align: center;
@@ -778,7 +778,7 @@ footer .inner p {
   #metro nav h1 {
     left: 50px;
     bottom: 150px;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: red;
   }
