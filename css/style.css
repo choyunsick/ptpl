@@ -184,7 +184,7 @@ header .inner .menuMo #gnbMo li a {
   }
   header .inner h1 {
     bottom: 45px;
-    font-size: 40px;
+    font-size: 10px;
     text-align: center;
     color: red;
   }
@@ -477,13 +477,13 @@ footer .inner p {
 @media screen and (max-width: 1180px) {
   #visual {
     width: 100%;
-    height: 300px;
+    height: 600px;
   }
 }
 @media screen and (max-width: 393px) {
   #visual {
     width: 100%;
-    height: 300px;
+    height: 600px;
   }
 }
 #news {
