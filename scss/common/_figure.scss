@@ -59,6 +59,7 @@ figure {
 figure {
     background: linear-gradient(120deg ,blue , red);
     width: 100%;
+    height: 80vh;
     .inner{
         width: 100%;
         padding: 0px 20px;
@@ -68,6 +69,7 @@ figure {
             font-size: 40px;
             font-family: 'Barriecito', cursive;
             color: chartreuse;
+            margin-top: 100px;
         }
         a {
             display: block;
@@ -87,6 +89,7 @@ figure {
     figure {
         background: linear-gradient(120deg ,blue , red);
         width: 100%;
+        height: 80vh;
         .inner{
             width: 100%;
             padding: 0px 10px;
@@ -96,6 +99,7 @@ figure {
                 font-size: 10px;
                 font-family: 'Barriecito', cursive;
                 color: chartreuse;
+                margin-top: 100px;
             }
             a {
                 display: block;

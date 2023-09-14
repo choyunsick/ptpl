@@ -249,6 +249,7 @@ figure .inner a:hover {
   figure {
     background: linear-gradient(120deg, blue, red);
     width: 100%;
+    height: 80vh;
   }
   figure .inner {
     width: 100%;
@@ -259,6 +260,7 @@ figure .inner a:hover {
     font-size: 40px;
     font-family: "Barriecito", cursive;
     color: chartreuse;
+    margin-top: 100px;
   }
   figure .inner a {
     display: block;
@@ -273,6 +275,7 @@ figure .inner a:hover {
   figure {
     background: linear-gradient(120deg, blue, red);
     width: 100%;
+    height: 80vh;
   }
   figure .inner {
     width: 100%;
@@ -283,6 +286,7 @@ figure .inner a:hover {
     font-size: 10px;
     font-family: "Barriecito", cursive;
     color: chartreuse;
+    margin-top: 100px;
   }
   figure .inner a {
     display: block;
@@ -951,7 +955,7 @@ footer .inner p {
 @media screen and (max-width: 1180px) {
   .contain {
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     background-color: #fff;
   }
   .contain .container h1 {
@@ -963,7 +967,7 @@ footer .inner p {
 @media screen and (max-width: 393px) {
   .contain {
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     background-color: #fff;
   }
   .contain .container h1 {
