@@ -160,7 +160,17 @@
     #metro{
         nav{
             width: 100%;
-
+            gap: 0;
+            a{
+                font: 20px/1 "arial";color: #999;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                &.on{
+                    color: #000;
+                    font-family: 'Kablammo', cursive;
+                }
+            }
             h1{
                 left: 50px;
                 bottom: 150px;
@@ -257,7 +267,16 @@ section#News3{
     #metro{
         nav{
             width: 100%;
-
+            a{
+                font: 10px/1 "arial";color: #999;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                &.on{
+                    color: #000;
+                    font-family: 'Kablammo', cursive;
+                }
+            }
             h1{
                 left: 50px;
                 bottom: 150px;
