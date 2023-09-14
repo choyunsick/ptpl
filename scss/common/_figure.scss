@@ -69,6 +69,16 @@ figure {
             font-family: 'Barriecito', cursive;
             color: chartreuse;
         }
+        a {
+            display: block;
+            width: 100%;
+            height: 30px;
+            border: 1px solid #bbb;
+            text-align: center;
+            font: bold 11px/30px "arial";
+            color: #fff;
+        }
+
     }   
 } 
 }
@@ -85,6 +95,15 @@ figure {
                 font-size: 10px;
                 font-family: 'Barriecito', cursive;
                 color: chartreuse;
+            }
+            a {
+                display: block;
+                width: 100%;
+                height: 30px;
+                border: 1px solid #bbb;
+                text-align: center;
+                font: bold 11px/30px "arial";
+                color: #fff;
             }
         }   
     } 
