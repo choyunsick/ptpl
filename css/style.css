@@ -63,7 +63,7 @@ header .inner .menu #main li:hover {
   background-color: burlywood;
   color: #000;
 }
-header .inner .btnCall {
+header .inner .cctvCall {
   position: absolute;
   right: 30px;
   top: 50%;
@@ -72,7 +72,7 @@ header .inner .btnCall {
   width: 20px;
   height: 20px;
 }
-header .inner .btnCall::before {
+header .inner .cctvCall::before {
   content: "";
   display: block;
   width: 100%;
@@ -83,7 +83,7 @@ header .inner .btnCall::before {
   left: 0;
   transition: top 0.5s 0s, transform 0.5s 0.5s;
 }
-header .inner .btnCall::after {
+header .inner .cctvCall::after {
   content: "";
   display: block;
   width: 100%;
@@ -94,7 +94,7 @@ header .inner .btnCall::after {
   left: 0;
   transition: bottom 0.5s 0s, transform 0.5s 0.5s;
 }
-header .inner .btnCall span {
+header .inner .cctvCall span {
   display: block;
   width: 100%;
   height: 2px;
@@ -106,17 +106,17 @@ header .inner .btnCall span {
   transition: 1s;
   text-indent: -9999px;
 }
-header .inner .btnCall.on::before {
+header .inner .cctvCall.on::before {
   top: 50%;
   margin-top: -1px;
   transform: rotate(45deg);
 }
-header .inner .btnCall.on::after {
+header .inner .cctvCall.on::after {
   bottom: 50%;
   margin-bottom: -1px;
   transform: rotate(-45deg);
 }
-header .inner .btnCall.on span {
+header .inner .cctvCall.on span {
   transform: translateX(100%);
   opacity: 0;
 }
@@ -173,7 +173,7 @@ header .inner .menuMo #gnbMo li a {
     display: none;
     overflow: hidden;
   }
-  header .inner .btnCall {
+  header .inner .cctvCall {
     display: block;
   }
 }
@@ -192,7 +192,7 @@ header .inner .menuMo #gnbMo li a {
     display: none;
     overflow: hidden;
   }
-  header .inner .btnCall {
+  header .inner .cctvCall {
     display: block;
   }
 }

@@ -5,14 +5,9 @@ const boxMetro = document.querySelectorAll("#metro section");
 btnMetro.forEach((el,index)=>{
     el.addEventListener("click",(e)=>{
         e.preventDefault();
-
-        //반복을 돌면서 btn의 on클래스를 모두 없애고
         for(let el of btnMetro)el.classList.remove("on");
-        //클릭한 순번의 btn에 on을 붙이고
         btnMetro[index].classList.add("on");
-        //반복을 돌면서 box의 on클래스를 모두 없애고
         for(let el of boxMetro)el.classList.remove("on");
-        //클릭한 순번의 box에 on을 붙여보자~
         boxMetro[index].classList.add("on");
 
 

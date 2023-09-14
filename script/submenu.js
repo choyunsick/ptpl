@@ -1,10 +1,10 @@
 
-const btnCall = document.querySelector(".btnCall");
+const cctvCall = document.querySelector(".cctvCall");
 const menuMo = document.querySelector(".menuMo");
 
 
-btnCall.ontouch = function(e){
+cctvCall.onclick = function(e){
     e.preventDefault();
-    btnCall.classList.toggle("on");
+    cctvCall.classList.toggle("on");
     menuMo.classList.toggle('on');
 }

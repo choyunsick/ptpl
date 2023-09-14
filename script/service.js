@@ -1,4 +1,4 @@
-//변수설정
+
 const txt = document.querySelector(".txt2");
 const set1 = document.querySelector(".set1");
 const set2 = document.querySelector(".set2");
