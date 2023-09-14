@@ -266,12 +266,8 @@ figure .inner a:hover {
     height: 20px;
     border: 1px solid #bbb;
     text-align: center;
-    font: bold 11px/30px "arial";
+    font-size: 20px;
     color: #fff;
-  }
-  figure .inner:hover {
-    background-color: #fff;
-    color: #555;
   }
 }
 @media screen and (max-width: 393px) {
@@ -295,12 +291,8 @@ figure .inner a:hover {
     height: 20px;
     border: 1px solid #bbb;
     text-align: center;
-    font: bold 11px/30px "arial";
+    font: 10px;
     color: #fff;
-  }
-  figure .inner:hover {
-    background-color: #fff;
-    color: #555;
   }
 }
 footer {

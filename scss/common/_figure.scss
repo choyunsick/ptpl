@@ -75,14 +75,14 @@ figure {
             height: 20px;
             border: 1px solid #bbb;
             text-align: center;
-            font: bold 11px/30px "arial";
+            font-size: 20px;
             color: #fff;
         }
         
-        &:hover{
-            background-color: #fff;
-            color: #555;
-            }
+        // &:hover{
+        //     background-color: #fff;
+        //     color: #555;
+        //     }
 
     }   
 } 
@@ -107,13 +107,13 @@ figure {
                 height: 20px;
                 border: 1px solid #bbb;
                 text-align: center;
-                font: bold 11px/30px "arial";
+                font: 10px;
                 color: #fff;
             }
-            &:hover{
-                background-color: #fff;
-                color: #555;
-                }
+            // &:hover{
+            //     background-color: #fff;
+            //     color: #555;
+            //     }
         }   
     } 
 }
