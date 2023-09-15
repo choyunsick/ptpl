@@ -165,7 +165,7 @@ header .inner .menuMo #gnbMo li a {
   }
   header .inner h1 {
     bottom: 150px;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: #000;
   }
@@ -183,10 +183,10 @@ header .inner .menuMo #gnbMo li a {
     height: 150px;
   }
   header .inner h1 {
-    bottom: 45px;
-    font-size: 10px;
+    bottom: 150px;
+    font-size: 20px;
     text-align: center;
-    color: red;
+    color: #000;
   }
   header .inner .menu {
     display: none;
@@ -263,13 +263,13 @@ figure .inner a:hover {
   }
   figure .inner h2 {
     font: normal 14vw/1 "arial";
-    font-size: 40px;
+    font-size: 25px;
     font-family: "Barriecito", cursive;
     color: chartreuse;
     margin-top: 100px;
   }
   figure .inner a {
-    display: block;
+    display: fixed;
     width: 100%;
     height: 20px;
     border: 1px solid #bbb;
@@ -1271,12 +1271,45 @@ footer .inner p {
 @media screen and (max-width: 1180px) {
   .information {
     width: 100%;
-    height: 450vh;
+    height: 320vh;
   }
   .information .section {
     width: 80%;
     padding: 5px;
     margin: 0 auto;
+  }
+  .information .section .pageitem {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  .information .section .pageitem .jog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .information .section .pageitem .jog video {
+    width: 40%;
+    opacity: 0.8;
+    border-radius: 30%;
+    box-shadow: 10px 15px 15px #000;
+  }
+  .information .section .pageitem h2 {
+    font-size: 180%;
+    background-color: inherit;
+    color: #444;
+    margin-top: 0;
+  }
+  .information .section .pageitem p {
+    padding: 0;
+    margin: 1em 0;
+    font-size: 75%;
+  }
+  .information .section .pageitem a {
+    text-decoration: underline;
   }
 }
 @media screen and (max-width: 393px) {
@@ -1414,6 +1447,95 @@ footer .inner p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1180px) {
+  .charge {
+    width: 100%;
+    height: 300vh;
+    background-color: #fff;
+  }
+  .charge h1 {
+    font-size: 30px;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    margin-left: 50px;
+  }
+  .charge .wrap {
+    margin-top: 30px;
+  }
+  .charge .wrap > div {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .charge .wrap #box2 {
+    height: 2000px;
+    background: linear-gradient(250deg, #fff, yellow);
+  }
+  .charge .wrap #box2 .txt2 {
+    font: bold 50px/1 "arial";
+    color: #000;
+    position: fixed;
+    opacity: 0;
+    float: left;
+    overflow: hidden;
+    display: none;
+  }
+  .charge .wrap #box2 .txt2 p {
+    color: #000;
+    font: bold 30px/1 "arial";
+    margin-left: 10px;
+    overflow: hidden;
+    display: none;
+  }
+  .charge .wrap #box2 .txt2 img {
+    width: 50%;
+    margin-left: 100vh;
+    opacity: 0.7;
+    border-radius: 50%;
+  }
+  .charge .wrap #box2 .set2 {
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    display: none;
+  }
+  .charge .wrap #box3 {
+    height: 1500px;
+    background: linear-gradient(135deg, #c94949, #93a857);
+  }
+  .charge .wrap #box3 .set3 {
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    transform: scale(2);
+    opacity: 1;
+    border-radius: 50%;
+    display: none;
+  }
+  .charge .wrap #box3 .set3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.8;
+    display: none;
+  }
+  .charge .wrap #box3 .set3 .txt3 {
+    font: bold 120px/1 "arial";
+    color: yellow;
+    position: relative;
+    left: 100px;
+    top: 5%;
+    font-family: "Oswald", sans-serif;
+    display: none;
+  }
+}
 h4 {
   font-size: 60px;
   color: red;
