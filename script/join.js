@@ -1,6 +1,7 @@
 
 function changePhone1(){
     const phone1 = document.getElementById("phone1").value 
+    console.log(typeof phone1);
     if(phone1.length === 3){
         document.getElementById("phone2").focus();
     }
@@ -14,16 +15,13 @@ function changePhone2(){
 function changePhone3(){
     const phone3 = document.getElementById("phone3").value 
     if(phone3.length === 4){
-      document.getElementById("sendMessage").focus();
-      // document.getElementById("sendMessage").setAttribute("style","background-color:yellow;")
-      // document.getElementById("sendMessage").disabled = false;
     }
 }
 
 
     
-    setTimeout(function() {
-      alert("가입이 완료되었습니다 감사합니다.")
-  },100000);         
+//     setTimeout(function() {
+//       alert("가입이 완료되었습니다 감사합니다.")
+//   },1);         
   
 

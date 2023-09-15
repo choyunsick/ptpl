@@ -5,9 +5,11 @@ const boxMetro = document.querySelectorAll("#metro section");
 btnMetro.forEach((el,index)=>{
     el.addEventListener("click",(e)=>{
         e.preventDefault();
-        for(let el of btnMetro)el.classList.remove("on");
+        for(let i=0; i<btnMetro.length; i++){
+            btnMetro[i].classList.remove("on");
+            boxMetro[i].classList.remove("on");
+        }
         btnMetro[index].classList.add("on");
-        for(let el of boxMetro)el.classList.remove("on");
         boxMetro[index].classList.add("on");
 
 
@@ -18,6 +20,8 @@ btnMetro.forEach((el,index)=>{
 
     })
 })
+
+
 
 
 
@@ -58,6 +62,7 @@ btnPlay.addEventListener("click", (e) => {
     }
 });
 
+
 btnStop.addEventListener("click", stopRolling);
 function startRolling() {
     bar.style.display = "block"; 
@@ -78,8 +83,8 @@ function stopRolling() {
 }
 
 function active(index) {
-    for (let el of panels) el.classList.remove("on");
-    for (let el of btns) el.classList.remove("on");
+    panels[index].classList.remove("on");
+    btns[index].classList.remove("on");
     panels[index].classList.add("on");
     btns[index].classList.add("on");
     num = index;
