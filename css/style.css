@@ -245,6 +245,7 @@ figure .inner a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
 figure .inner a:hover {
   background-color: #fff;
@@ -1321,6 +1322,39 @@ footer .inner p {
     width: 80%;
     padding: 5px;
     margin: 0 auto;
+  }
+  .information .section .pageitem {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  .information .section .pageitem .jog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .information .section .pageitem .jog video {
+    width: 40%;
+    opacity: 0.8;
+    border-radius: 30%;
+    box-shadow: 10px 15px 15px #000;
+  }
+  .information .section .pageitem h2 {
+    font-size: 180%;
+    background-color: inherit;
+    color: #444;
+    margin-top: 0;
+  }
+  .information .section .pageitem p {
+    padding: 0;
+    margin: 1em 0;
+    font-size: 75%;
+  }
+  .information .section .pageitem a {
+    text-decoration: underline;
   }
 }
 .charge {

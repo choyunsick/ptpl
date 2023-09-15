@@ -31,8 +31,6 @@ btnMetro.forEach((el,index)=>{
 
 
 
-
-
 const frame = document.querySelector("#visual");
 const panels = frame.querySelectorAll(".panel li");
 const btns = frame.querySelectorAll(".btns li");
