@@ -1284,6 +1284,11 @@ footer .inner p {
     width: 100%;
     height: 250vh;
   }
+  .information .section {
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+  }
 }
 .charge {
   width: 100%;
